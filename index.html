@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créons une application de Quiz</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="title">
+        <h1 class="website_title">Quiz of HTML CSS JS</h1>
+
+    </div>
+    <div class="backgroond">
+        <h1 id="h1">Hello good luck ! </h1>
+        <div id="fin">
+            <label for="nom"></label>
+            <input type="text" id="nom" placeholder="entrer votre nom">
+            <button onclick="userSCore()" id="boutonName">ok</button>
+        </div>
+        <div class="conteneur" id="conteneurBlock">
+            <div id="question">
+            </div>
+            <br>
+            <div class="allign">
+                <input type="radio" id="btnopt1" name="options">
+                <span id="optt1"></span>
+            </div>
+            <br>
+            <div class="allign">
+                <input type="radio" id="btnopt2" name="options">
+                <span id="optt2"></span>
+            </div>
+            <br>
+            <div class="allign">
+                <input type="radio" id="btnopt3" name="options">
+                <span id="optt3"></span>
+            </div>
+            <br>
+            <div class="allign">
+                <input type="radio" id="btnopt4" name="options">
+                <span id="optt4"></span>
+            </div>
+            <br>
+            <div>
+                <span id="description" class="hidden"></span>
+
+            </div>
+            <div class="btn">
+                <button id="validerBtn">Valider</button>
+                <button id="nextBtn" class="hidden">next</button>
+            </div>
+        </div>
+
+        <div class="hidden" id="classement">
+            <h1>Ranking Player</h1>
+            <p id="firsPlayer">Top 1</p>
+            <p id="2Player"> Top 2</p>
+            <p id="3Player"> Top3</p>
+            <p id="4Player">4</p>
+            <p id="5Player">5</p>
+            
+        </div>
+
+
+    </div>
+    <script src="/script.js"></script>
+    <!-- <script src="/data.js"></script> -->
+</body>
+
+</html>
